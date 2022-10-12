@@ -102,7 +102,7 @@ body{
 
 .inicio .contenido-banner img{
     margin-top: 40px;
-    border: 10px solid var(--Neon-pink);
+    border: 10px solid #720cac;
     display: block;
     width: 80%;
     margin: auto;
@@ -141,7 +141,7 @@ body{
 
 .sobremi{
     background-color: var(--Dark-blue);
-    color: #fff;
+    color: var(--Grayish-pink);
     padding: 50px 20px;
 }
 .sobremi .contenido-seccion{
@@ -162,7 +162,7 @@ body{
 }
 
 .sobremi .contenido-seccion p span{
-    color: var(--Grayish-pink);
+    color: var(--Neon-pink);
     font-weight: bold;
 }
 
@@ -177,6 +177,7 @@ body{
 .sobremi .fila .col h3{
     font-size: 28px;
     margin-bottom: 25px;
+    
 }
 .sobremi .fila .col ul{
     list-style: none;
@@ -192,7 +193,7 @@ body{
 }
 
 .sobremi .fila .col ul li span{
-    background-color: var(--Neon-pink);
+    background-color: var(--Drak-purple);
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
