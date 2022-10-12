@@ -15,19 +15,17 @@
     font-family: 'Kanit', sans-serif;
 }
 
-body{
-    width: 100%;
-    height: 100vh;
-    background-color: var(--Dark-blue);
-    
-}
-
 html{
     scroll-behavior: smooth;
 }
 
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--Dark-blue);   
+}
+
 .cont-header{
-    background: #1e2326;
     position: fixed;
     width: 100%;
     top: 0;
@@ -45,13 +43,34 @@ html{
 }
 
 .cont-header header .logo a{
-    font-family: 'Righteous';
-    font-size: 36px;
-    color: #1CB698;
+    font-size: 2.25rem;
+    color: var(--Neon-pink);
     text-decoration: none;
 }
 
 .cont-header header ul{
     display: flex;
     list-style: none;
+}
+
+.cont-header header nav ul li a{
+    text-align: none;
+    color: var(--Grayish-pink);
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.cont-header header nav ul li a:hover{
+    color: var(--Neon-pink);
+}
+
+.nav-responsive{
+    background-color: #1CB698;
+    color:#fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
 }
