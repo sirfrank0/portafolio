@@ -31,6 +31,7 @@ body{
     top: 0;
     left: 0;
     z-index: 99;
+    background-color: var(--Dark-blue);
 }
 
 .cont-header header{
@@ -92,7 +93,7 @@ body{
 
 .inicio .contenido-banner{
     padding: 20px;
-    background-color: #1e2326;
+    background-color: var(--Dark-blue);
     max-width: 350px;
     margin: auto;
     text-align: center;
@@ -131,5 +132,40 @@ body{
     transition: .3s;
 }
 .inicio .contenido-banner .redes a:hover{
-    background-color: #1CB698;
+    background-color: var(--Grayish-pink);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:980px){
+    nav{
+        display: none;
+    }
+    .nav-responsive{
+        display: block;
+    }
+    nav.responsive{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background-color: #252A2E;
+        width: 180px;
+    }
+    nav.responsive ul{
+        display: block !important;
+    }
+    nav.responsive ul li{
+        border-bottom: 1px solid #fff;
+        padding: 10px 0;
+    }
 }
