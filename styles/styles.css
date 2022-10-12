@@ -84,7 +84,7 @@ body{
     url(/assets/thumb-1920-1188016.jpg);
     background-size: cover ;
     height: 100vh;
-    color: #fff;
+    color: var(--Grayish-pink);
     display: flex;
     align-items: center;
     padding-top: 80px;
