@@ -22,7 +22,7 @@ html{
 body{
     width: 100%;
     height: 100vh;
-    background-color: var(--Dark-blue);   
+    background-color: lightcyan;   
 }
 
 .cont-header{
@@ -73,4 +73,17 @@ body{
     border-radius: 5px;
     cursor: pointer;
     display: none;
+}
+
+
+
+
+.inicio{
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    url(/assets/inicio-background.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
 }
