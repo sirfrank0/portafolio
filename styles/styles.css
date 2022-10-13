@@ -11,7 +11,7 @@
     --Drak-purple: #1f0379;
     --Neon-pink: #f72de5;
     --Grayish-pink: #d5b6fc;
-    --Blue: #000127;
+    --Blue: #000129;
     font-size: 16px;
     font-family: 'Kanit', sans-serif;
 }
@@ -187,10 +187,11 @@ body{
 .sobremi .fila .col h3{
     font-size: 28px;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 .intereses{
-    padding-left: 20px;
+    
     color: var(--Neon-pink)  ;
 }
 
@@ -216,6 +217,7 @@ body{
 .sobremi .fila .col .contenedor-intereses{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .sobremi .fila .col .contenedor-intereses .interes{
     width: 100px;
@@ -293,6 +295,7 @@ body{
 .skills .contenido-seccion{
     max-width: 1100px;
     margin: auto;
+    
 }
 
 .skills h2{
@@ -324,15 +327,20 @@ body{
 .skills .fila .col
 {
     width: 50%;
+    border: 1px solid var(--Neon-pink);
+    
+    
 }
 
 .skills .fila .col h3{
-    font-size: 28px;
+    font-size: 24px;
     margin-bottom: 25px;
+    text-align: center;
+    margin-top: 8px;
 }
 
 .intereses{
-    padding-left: 20px;
+    
     color: var(--Neon-pink)  ;
 }
 
@@ -358,6 +366,7 @@ body{
 .skills .fila .col .contenedor-skills{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .skills .fila .col .contenedor-skills .interes{
     width: 100px;
@@ -421,6 +430,7 @@ body{
 
 
 @media screen and (max-width:480px){
+
     
     .sobremi .fila .col .contenedor-intereses .interes{
            width: 60px;
