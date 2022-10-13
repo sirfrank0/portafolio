@@ -11,6 +11,7 @@
     --Drak-purple: #1f0379;
     --Neon-pink: #f72de5;
     --Grayish-pink: #d5b6fc;
+    --Blue: #1c0d45;
     font-size: 16px;
     font-family: 'Kanit', sans-serif;
 }
@@ -54,7 +55,7 @@ body{
 
 .cont-header header nav ul li a{
     text-align: none;
-    color: var(--Grayish-pink);
+    color: var(--Neon-pink);
     margin: 0 15px;
     padding: 3px;
     transition: .5s;
@@ -66,8 +67,8 @@ body{
 }
 
 .nav-responsive{
-    background-color: var(--Grayish-pink);
-    color:#fff;
+    background-color: var(--Neon-pink);
+    color: var(--Dark-blue);
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
@@ -98,11 +99,12 @@ body{
     margin: auto;
     text-align: center;
     border-radius: 40px;
+    border: 1px solid #f72de5;
 }
 
 .inicio .contenido-banner img{
     margin-top: 40px;
-    border: 10px solid #720cac;
+    border: 10px solid #f72de5;
     display: block;
     width: 80%;
     margin: auto;
@@ -122,7 +124,7 @@ body{
     color: #fff;
     display: inline-block;
     text-decoration: none;
-    border: 1px solid #fff;
+    border: 1px solid #f72de5;
     border-radius: 100%;
     width: 42px;
     height: 42px;
@@ -140,7 +142,8 @@ body{
 
 
 .sobremi{
-    background-color: var(--Dark-blue);
+    background-color: var(--Dark-blue) ;
+    
     color: var(--Grayish-pink);
     padding: 50px 20px;
 }
@@ -161,6 +164,10 @@ body{
     margin-bottom: 20px;
 }
 
+.sobremi h2, h3{
+    color: var(--Neon-pink);
+}
+
 .sobremi .contenido-seccion p span{
     color: var(--Neon-pink);
     font-weight: bold;
@@ -177,8 +184,13 @@ body{
 .sobremi .fila .col h3{
     font-size: 28px;
     margin-bottom: 25px;
-    
 }
+
+.intereses{
+    padding-left: 20px;
+    color: var(--Neon-pink)  ;
+}
+
 .sobremi .fila .col ul{
     list-style: none;
 }
@@ -188,7 +200,7 @@ body{
 
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color:var(--Grayish-pink);
+    color:var(--Neon-pink);
     width: 130px;
 }
 
@@ -205,7 +217,7 @@ body{
 .sobremi .fila .col .contenedor-intereses .interes{
     width: 100px;
     height: 100px;
-    background-color: #252A2E;
+    
     border-radius: 10px;
     margin: 0 15px 15px 0;
     display: flex;
@@ -214,7 +226,7 @@ body{
     justify-content: center;
     transition: .3s;
 }.sobremi .fila .col .contenedor-intereses .interes:hover{
-    background-color: var(--Grayish-pink);
+    background-color:var(--Blue);
 }
 .sobremi .fila .col .contenedor-intereses .interes i{
     font-size: 30px;
@@ -223,13 +235,13 @@ body{
 .sobremi button{
     cursor: pointer;
     background-color: transparent;
-    border: 2px solid #fff;
+    border: 2px solid var(--Neon-pink);
     width: fit-content;
     display: block;
     margin: 20px auto;
     padding: 10px 22px;
     font-size: 16px;
-    color: #fff;
+    color: var(--Grayish-pink);
     position: relative;
     z-index: 10;
     border-radius: 8px;
@@ -240,9 +252,10 @@ body{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: var(--Grayish-pink);
+    background-color: var(--Blue);
     z-index: -1;
     transition: 1s;
+    font-family: 'Kanit', sans-serif;
     
 }
 .sobremi button:hover .overlay{
@@ -277,7 +290,7 @@ body{
         position: absolute;
         right: 0;
         top: 75px;
-        background-color: #252A2E;
+       
         width: 180px;
     }
     nav.responsive ul{
@@ -302,8 +315,13 @@ body{
 @media screen and (max-width:480px){
     
     .sobremi .fila .col .contenedor-intereses .interes{
-           width: 50px;
-           height: 50px;
+           width: 60px;
+           height: 60px;
         }
+
+    .contenedor-intereses, .span{
+        font-size: 8px;
+        
+    }
     
     }
