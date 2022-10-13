@@ -11,7 +11,7 @@
     --Drak-purple: #1f0379;
     --Neon-pink: #f72de5;
     --Grayish-pink: #d5b6fc;
-    --Blue: #1c0d45;
+    --Blue: #000127;
     font-size: 16px;
     font-family: 'Kanit', sans-serif;
 }
@@ -30,7 +30,10 @@ body{
     position: fixed;
     width: 100%;
     top: 0;
+    left: 0;
+    z-index: 99;
     background-color: var(--Dark-blue);
+    
 }
 
 .cont-header header{
@@ -245,6 +248,7 @@ body{
     position: relative;
     z-index: 10;
     border-radius: 8px;
+    font-family: 'Kanit', sans-serif;;
 }
 .sobremi button .overlay{
     position: absolute;
@@ -266,56 +270,111 @@ body{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .skills{
-    background-color: #000127;
-    color: #fff;
+    background-color: var(--Blue) ;
+    
+    color: var(--Grayish-pink);
     padding: 50px 20px;
 }
 .skills .contenido-seccion{
     max-width: 1100px;
     margin: auto;
 }
+
 .skills h2{
     font-size: 48px;
     text-align: center;
     padding: 20px 0;
-    letter-spacing: 4px;
-    color: var(--Neon-pink);
 
 }
+.skills .contenido-seccion p{
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.skills h2, h3{
+    color: var(--Neon-pink);
+}
+
+.skills .contenido-seccion p span{
+    color: var(--Neon-pink);
+    font-weight: bold;
+}
+
 .skills .fila{
     display: flex;
 }
-.skills .fila .col{
+.skills .fila .col
+{
     width: 50%;
-    padding: 0 20px;
 }
+
 .skills .fila .col h3{
     font-size: 28px;
     margin-bottom: 25px;
 }
-.skills .skill > span{
+
+.intereses{
+    padding-left: 20px;
+    color: var(--Neon-pink)  ;
+}
+
+.skills .fila .col ul{
+    list-style: none;
+}
+.skills .fila .col ul li{
+    margin: 12px 0;
+}
+
+.skills .fila .col ul li strong{
+    display: inline-block;
+    color:var(--Neon-pink);
+    width: 130px;
+}
+
+.skills .fila .col ul li span{
+    background-color: var(--Drak-purple);
+    padding: 3px;
     font-weight: bold;
-    display: block;
+    border-radius: 5px;
+}
+.skills .fila .col .contenedor-intereses{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills .fila .col .contenedor-intereses .interes{
+    width: 100px;
+    height: 100px;
+    
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}.skills .fila .col .contenedor-intereses .interes:hover{
+    background-color:var(--Blue);
+}
+.skills .fila .col .contenedor-intereses .interes i{
+    font-size: 30px;
     margin-bottom: 10px;
 }
-.skills .skill .barra-skill{
-    height: 8px;
-    width: 80%;
-    background-color: #131517;
-    position: relative;
-    margin-bottom: 30px;
-}
-.skills .skill .progreso{
-    background-color: #1CB698;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 8px;
-}
-
-
-
 
 
 
