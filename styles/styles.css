@@ -299,6 +299,7 @@ body{
     font-size: 48px;
     text-align: center;
     padding: 20px 0;
+    letter-spacing: 4px;
 
 }
 .skills .contenido-seccion p{
@@ -309,6 +310,7 @@ body{
 
 .skills h2, h3{
     color: var(--Neon-pink);
+
 }
 
 .skills .contenido-seccion p span{
@@ -353,11 +355,11 @@ body{
     font-weight: bold;
     border-radius: 5px;
 }
-.skills .fila .col .contenedor-intereses{
+.skills .fila .col .contenedor-skills{
     display: flex;
     flex-wrap: wrap;
 }
-.skills .fila .col .contenedor-intereses .interes{
+.skills .fila .col .contenedor-skills .interes{
     width: 100px;
     height: 100px;
     
@@ -368,10 +370,10 @@ body{
     align-items: center;
     justify-content: center;
     transition: .3s;
-}.skills .fila .col .contenedor-intereses .interes:hover{
+}.skills .fila .col .contenedor-skills .interes:hover{
     background-color:var(--Blue);
 }
-.skills .fila .col .contenedor-intereses .interes i{
+.skills .fila .col .contenedor-skills .interes i{
     font-size: 30px;
     margin-bottom: 10px;
 }
