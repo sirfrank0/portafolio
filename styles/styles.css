@@ -564,5 +564,13 @@ body{
         font-size: 8px;
         
     }
+
+    .curriculum .fila{
+        flex-direction: column;
+    }
+
+    .curriculum .fila .col{
+        width: 100%;
+    }
     
     }
