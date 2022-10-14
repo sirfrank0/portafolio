@@ -708,5 +708,13 @@ body{
     .curriculum .fila .col{
         width: 100%;
     }
+
+    .skills .fila .col h3 {
+        font-size: 24px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+        
+    }
     
     }
