@@ -109,7 +109,7 @@ body{
 
 .inicio .contenido-banner img{
     margin-top: 40px;
-    border: 10px solid var(--Drak-purple);
+    border: px solid var(--Drak-purple);
     display: block;
     width: 80%;
     margin: auto;
@@ -512,6 +512,113 @@ body{
     bottom: 4px;
 }
 
+
+
+
+
+
+
+
+.contacto{
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    url(/assets/backcopnt.jpg);
+    background-color: var(--Dark-blue);
+    color: var(--Drak-purple);
+    padding: 50px 0;
+    background-size: cover;
+    background-position: center;
+    
+}
+.contacto .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.contacto h2{
+    font-size: 48px;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Kanit', sans-serif;
+}
+.contacto .fila{
+    display: flex;
+    justify-content: center;
+}
+.contacto .col{
+    width: 80%;
+    padding: 10px;
+    position: relative;
+    
+    
+}
+
+.contacto .col input{
+    font-family: 'Kanit', sans-serif;
+    border-radius: 8px;
+}
+
+
+::placeholder {color: #b7afc0;}
+
+
+.contacto .col input, .contacto .col textarea{
+    display: block;
+    width: 100%;
+    padding: 18px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: var(--Dark-blue);
+    color: #fff;
+    font-size: 18px;
+}
+.contacto button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+.contacto button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1CB698;
+    z-index: -1;
+    transition: 1s;
+}
+.contacto button:hover .overlay{
+    width: 100%;
+}
+.contacto .col img{
+    width: 100%;
+}
+.contacto .col .info{
+    position: absolute;
+    top: 40%;
+    background-color: #252A2E;
+    padding: 20px;
+    max-width: 350px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.contacto .col .info ul{
+    list-style: none;
+}
+.contacto .col .info ul li{
+    margin-bottom: 20px;
+}
+.contacto .col .info ul li i{
+    color: #1CB698;
+    display: inline-block;
+    margin-right: 20px;
+}
 
 
 
