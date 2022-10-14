@@ -10,7 +10,8 @@
     --Dark-blue: #000120;
     --Drak-purple: #9B00E8;
     /*--Neon-pink: #f72de5;*/
-    --Neon-pink: #9B00E8;
+    /*--Neon-pink: #9B00E8;*/
+    --Neon-pink: #00F1FF;
 
     --Grayish-pink: #d5b6fc;
     --Blue: #000129;
@@ -538,6 +539,7 @@ body{
     text-align: center;
     padding: 20px 0;
     font-family: 'Kanit', sans-serif;
+    color: var(--Grayish-pink);
 }
 .contacto .fila{
     display: flex;
@@ -554,6 +556,7 @@ body{
 .contacto .col input{
     font-family: 'Kanit', sans-serif;
     border-radius: 8px;
+    border: 1px solid var(--Grayish-pink);
 }
 
 
@@ -564,12 +567,16 @@ body{
     display: block;
     width: 100%;
     padding: 18px;
-    border: none;
+    border: 1px solid var(--Grayish-pink);
     margin-bottom: 20px;
     background-color: var(--Dark-blue);
     color: #fff;
     font-size: 18px;
+    border-radius: 8px;
 }
+
+
+
 .contacto button{
     cursor: pointer;
     background-color: transparent;
@@ -620,7 +627,12 @@ body{
     margin-right: 20px;
 }
 
-
+.cont-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
 
 
 
