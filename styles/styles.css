@@ -57,6 +57,7 @@ body{
 .cont-header header ul{
     display: flex;
     list-style: none;
+    
 }
 
 .cont-header header nav ul li a{
@@ -66,10 +67,12 @@ body{
     padding: 3px;
     transition: .5s;
     text-decoration: none;
+    
 }
 
 .cont-header header nav ul li a:hover{
     color: var(--Neon-pink);
+    
 }
 
 .nav-responsive{
@@ -106,6 +109,7 @@ body{
     text-align: center;
     border-radius: 40px;
     border: 1px solid var(--Grayish-pink);
+    animation: shake-2 4s infinite;
 }
 
 .inicio .contenido-banner img{
@@ -115,6 +119,7 @@ body{
     width: 80%;
     margin: auto;
     border-radius: 30%;
+    animation: shake-2 3s infinite;
 }
 
 .inicio .contenido-banner h1{
@@ -138,6 +143,7 @@ body{
     margin: 40px 5px;
     font-size: 20px;
     transition: .3s;
+    animation: shake-2 3s infinite;
 }
 .inicio .contenido-banner .redes a:hover{
     background-color:  var(--Neon-pink);
@@ -274,6 +280,15 @@ body{
     30% {transform: scale(1.05) rotate(5deg);}
     40% {transform: none;}
 }
+
+@keyframes shake-2{
+    0% { box-shadow: 0 0 -10px #c4a300; }
+  40% { box-shadow: 0 0 20px #c4a300; }
+  60% { box-shadow: 0 0 20px #c4a300; }
+  100% { box-shadow: 0 0 -10px #c4a300; }
+
+}
+
 
 .sobremi button .overlay{
     position: absolute;
@@ -656,34 +671,6 @@ body{
 
 
 
-@media screen and (max-width:980px){
-    nav{
-        display: none;
-    }
-    .nav-responsive{
-        display: block;
-    }
-    nav.responsive{
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 75px;
-       
-        width: 180px;
-    }
-    nav.responsive ul{
-        display: block !important;
-    }
-    nav.responsive ul li{
-        border-bottom: 1px solid #fff;
-        padding: 10px 0;
-    }
-}
-
-
-
-
-
 
 
 footer{
@@ -723,7 +710,44 @@ footer .arriba{
     border-radius: 50%;
     line-height: 50px;
     font-size: 18px;
+    animation: shake-2 2s infinite;
 }
+
+
+
+
+
+@media screen and (max-width:980px){
+    nav{
+        display: none;
+    }
+    .nav-responsive{
+        display: block;
+    }
+    nav.responsive{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+       
+        width: 180px;
+    }
+    nav.responsive ul{
+        display: block !important;
+    }
+    nav.responsive ul li{
+        border-bottom: 1px solid #fff;
+        padding: 10px 0;
+    }
+}
+
+
+
+
+
+
+
+
 
 
 
