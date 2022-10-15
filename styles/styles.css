@@ -310,7 +310,7 @@ body{
 
 
 .skills{
-    background-color: var(--Blue) ;
+    background-color: #1e012c ;
     
     color: var(--Grayish-pink);
     padding: 50px 20px;
@@ -533,7 +533,7 @@ body{
 
 .contacto{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url(/assets/backcopnt.jpg);
+    url(/assets/abstract-gaca9b1d0f_1280.jpg);
     background-color: var(--Dark-blue);
     color: var(--Drak-purple);
     padding: 50px 0;
@@ -602,6 +602,7 @@ body{
     z-index: 10;
     border-radius: 16px;
     font-family: 'Kanit', sans-serif;
+    animation: shake 2s infinite;
     
 }
 .contacto button .overlay{
@@ -677,6 +678,51 @@ body{
         border-bottom: 1px solid #fff;
         padding: 10px 0;
     }
+}
+
+
+
+
+
+
+
+footer{
+    background-color: var(--Dark-blue);
+    color: #fff;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+footer .redes{
+    margin-bottom: 20px;
+}
+footer .redes a{
+    color: var(--Grayish-pink);
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid var(--Neon-pink);
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+footer .arriba{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: var(--Neon-pink);
+    color: var(--Grayish-pink);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -25px;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 18px;
 }
 
 
