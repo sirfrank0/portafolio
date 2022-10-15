@@ -48,10 +48,9 @@ body{
     padding: 0.9375rem 1.25rem;
 }
 
-.cont-header header .logo a{
-    font-size: 2.25rem;
-    color: var(--Neon-pink);
-    text-decoration: none;
+.logo img{
+    max-width: 130px;
+    
 }
 
 .cont-header header ul{
@@ -67,6 +66,7 @@ body{
     padding: 3px;
     transition: .5s;
     text-decoration: none;
+    
     
 }
 
