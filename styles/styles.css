@@ -99,6 +99,7 @@ body{
     background-position: center;
     
     
+    
 }
 
 .inicio .contenido-banner{
@@ -169,12 +170,20 @@ body{
     text-align: center;
     padding: 20px 0;
     color: var(--Grayish-pink);
+    text-shadow:
+    0 0 7px var(--Neon-pink),
+    0 0 10px var(--Neon-pink),
+    0 0 11px var(--Neon-pink),
+    0 0 12px var(--Neon-pink),
+    0 0 12px var(--Neon-pink),
+    0 0 12px var(--Neon-pink),
+    0 0 102px var(--Neon-pink),
+    0 0 151px var(--Neon-pink);
+    
 
 }
 
-#h2-sobremi{
-    color: var(--Grayish-pink) ; 
-}
+
 
 #h2-skills{
     color: var(--Grayish-pink) ; 
@@ -187,9 +196,7 @@ body{
     margin-bottom: 20px;
 }
 
-.sobremi h2, h3{
-    color: var(--Neon-pink);
-}
+
 
 .sobremi .contenido-seccion p span{
     color: var(--Neon-pink);
@@ -341,6 +348,15 @@ body{
     text-align: center;
     padding: 20px 0;
     letter-spacing: 4px;
+    text-shadow:
+    0 0 7px var(--Neon-pink),
+    0 0 10px var(--Neon-pink),
+    0 0 11px var(--Neon-pink),
+    0 0 12px var(--Neon-pink),
+    0 0 12px var(--Neon-pink),
+    0 0 12px var(--Neon-pink),
+    0 0 102px var(--Neon-pink),
+    0 0 151px var(--Neon-pink);
 
 }
 .skills .contenido-seccion p{
@@ -447,6 +463,15 @@ body{
     font-size: 48px;
     text-align: center;
     padding: 20px 0;
+    text-shadow:
+    0 0 7px var(--Neon-pink),
+    0 0 10px var(--Neon-pink),
+    0 0 11px var(--Neon-pink),
+    0 0 12px var(--Neon-pink),
+    0 0 12px var(--Neon-pink),
+    0 0 12px var(--Neon-pink),
+    0 0 102px var(--Neon-pink),
+    0 0 151px var(--Neon-pink);
 
 }
 .curriculum .fila{
@@ -566,6 +591,15 @@ body{
     padding: 20px 0;
     font-family: 'Kanit', sans-serif;
     color: var(--Grayish-pink);
+    text-shadow:
+    0 0 7px var(--Neon-pink),
+    0 0 10px var(--Neon-pink),
+    0 0 11px var(--Neon-pink),
+    0 0 12px var(--Neon-pink),
+    0 0 12px var(--Neon-pink),
+    0 0 12px var(--Neon-pink),
+    0 0 102px var(--Neon-pink),
+    0 0 151px var(--Neon-pink);
 }
 .contacto .fila{
     display: flex;
