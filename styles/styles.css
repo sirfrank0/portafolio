@@ -109,7 +109,7 @@ body{
     text-align: center;
     border-radius: 40px;
     border: 1px solid var(--Grayish-pink);
-    animation: shake-2 4s infinite;
+    
 }
 
 .inicio .contenido-banner img{
@@ -325,7 +325,7 @@ body{
 
 
 .skills{
-    background-color: #1e012c ;
+    background-color: #1c0925 ;
     
     color: var(--Grayish-pink);
     padding: 50px 20px;
@@ -696,6 +696,7 @@ footer .redes a{
     margin: 40px 5px;
     font-size: 20px;
     transition: .3s;
+    animation: shake-2 3s infinite;
 }
 footer .arriba{
     display: block;
