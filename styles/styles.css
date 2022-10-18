@@ -319,6 +319,14 @@ body{
 
 /*Portafolio*/
 
+.portafolio-contenedor{
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    justify-items: center;
+}
+
 .qr-code{
     max-width: 20rem;
     background-color:  hsl(0, 0%, 100%);
