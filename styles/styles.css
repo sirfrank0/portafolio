@@ -296,6 +296,14 @@ body{
 
 }
 
+@keyframes shake-3{
+    0% { box-shadow: 0 0 -5px #c4a300; }
+  40% { box-shadow: 0 0 10px #c4a300; }
+  60% { box-shadow: 0 0 10px #c4a300; }
+  100% { box-shadow: 0 0 -5px #c4a300; }
+
+}
+
 
 .sobremi button .overlay{
     position: absolute;
@@ -319,6 +327,13 @@ body{
 
 /*Portafolio*/
 
+.portafolio{
+    background-color: #1c0925;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding: 50px 20px;
+}
+
 .portafolio-contenedor{
     display: grid;
     gap: 1rem;
@@ -327,15 +342,35 @@ body{
     justify-items: center;
 }
 
+
+.portafolio h2{
+    color: var(--Grayish-pink);
+    font-size: 48px;
+    text-align: center;
+    padding: 20px 0;
+    letter-spacing: 4px;
+    text-shadow:
+    0 0 7px var(--Neon-pink),
+    0 0 10px var(--Neon-pink),
+    0 0 11px var(--Neon-pink),
+    0 0 12px var(--Neon-pink),
+    0 0 12px var(--Neon-pink),
+    0 0 12px var(--Neon-pink),
+    0 0 102px var(--Neon-pink),
+    0 0 151px var(--Neon-pink);
+}
+
 .qr-code{
     max-width: 20rem;
-    background-color:  hsl(0, 0%, 100%);
+    background-color:  var(--Grayish-pink);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     border-radius: 1rem;
     filter: drop-shadow(0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.)); 
+    animation: shake-3 2s infinite;
+
   }
 
   .qr-code img{
@@ -346,22 +381,21 @@ body{
   }
 
   .p-1{
-    font-size: 1.3125rem;
-    font-weight: 700;
+    font-size: 1.25rem;
     color: hsl(218, 44%, 22%);
     margin-bottom: 0.625rem;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    font-weight: 700;
 
   }
 
   .p-2{
     font-size: 0.9375rem;
-    font-weight: 400;
     color: hsl(220, 15%, 55%);
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    margin-bottom: 1.875rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-bottom: 1rem;
   }
 
 
