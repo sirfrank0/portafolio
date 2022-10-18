@@ -369,15 +369,10 @@ body{
 
 
 .portafolio-img-cont{
-
-    border: 1px solid chartreuse;
+    /*border: 1px solid chartreuse;*/
     width: 90%;
-    
-    
-
     border-radius: 0.75rem;
     margin-top: 1rem;
-    
 }
 
 
