@@ -319,6 +319,43 @@ body{
 
 /*Portafolio*/
 
+.qr-code{
+    max-width: 20rem;
+    background-color:  hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 1rem;
+    filter: drop-shadow(0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.)); 
+  }
+
+  .qr-code img{
+    max-inline-size: 92%;
+    block-size: auto;
+    border-radius: 0.75rem;
+    margin: 0.75rem;
+  }
+
+  .p-1{
+    font-size: 1.3125rem;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 0.625rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+
+  }
+
+  .p-2{
+    font-size: 0.9375rem;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    margin-bottom: 1.875rem;
+  }
+
 
 
 
