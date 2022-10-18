@@ -332,7 +332,13 @@ body{
     padding-left: 1rem;
     padding-right: 1rem;
     padding: 50px 20px;
+    
 }
+
+
+
+
+
 
 .portafolio-contenedor{
     display: grid;
@@ -360,6 +366,24 @@ body{
     0 0 151px var(--Neon-pink);
 }
 
+
+
+.portafolio-img-cont{
+
+    border: 1px solid chartreuse;
+    width: 90%;
+    height: 40%;
+    background: url(/assets/chimpokomon.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.75rem;
+    margin: 1rem 1rem;
+}
+
+
+
+
+
 .qr-code{
     max-width: 20rem;
     background-color:  var(--Blue);
@@ -379,6 +403,7 @@ body{
     block-size: auto;
     border-radius: 0.75rem;
     margin: 0.75rem;
+    max-width: 200px;
   }
 
   .p-1{
