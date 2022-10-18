@@ -372,12 +372,12 @@ body{
 
     border: 1px solid chartreuse;
     width: 90%;
-    height: 40%;
-    background: url(/assets/chimpokomon.png);
-    background-size: cover;
-    background-position: center;
+    
+    
+
     border-radius: 0.75rem;
-    margin: 1rem 1rem;
+    margin-top: 1rem;
+    
 }
 
 
@@ -399,11 +399,11 @@ body{
   }
 
   .qr-code img{
-    max-inline-size: 92%;
-    block-size: auto;
-    border-radius: 0.75rem;
-    margin: 0.75rem;
+    object-fit: cover;
     max-width: 200px;
+    max-height: 104px;
+    border-radius: 0.75rem;
+    
   }
 
   .p-1{
