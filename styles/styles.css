@@ -344,7 +344,7 @@ body{
     display: grid;
     gap: 1rem;
     grid-auto-rows: 22rem;
-    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     justify-items: center;
 }
 
@@ -373,10 +373,6 @@ body{
     width: 90%;
     border-radius: 0.75rem;
     margin-top: 1rem;
-}
-
-.cont-big{
-    max-width: 500px;
 }
 
 
