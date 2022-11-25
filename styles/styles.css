@@ -160,6 +160,11 @@ body{
     color: var(--Grayish-pink);
     padding: 50px 20px;
 }
+
+.sobremi a{
+    color: #dbc7f3;
+}
+
 .sobremi .contenido-seccion{
     max-width: 1100px;
     margin: auto;
