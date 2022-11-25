@@ -343,7 +343,7 @@ body{
 .portafolio-contenedor{
     display: grid;
     gap: 1rem;
-    grid-auto-rows: 30rem;
+    grid-auto-rows: 33rem;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     justify-items: center;
 }
@@ -412,7 +412,7 @@ body{
   }
 
   .p-2{
-    font-size: 0.9375rem;
+    font-size: 0.85rem;
     color: var(--Grayish-pink);
     padding-left: 2rem;
     padding-right: 2rem;
