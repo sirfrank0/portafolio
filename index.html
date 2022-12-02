@@ -9,6 +9,8 @@
 
     <link rel="stylesheet" href="./styles/styles.css">
     <link href="/favicon.png" rel="icon" type="image/png"/>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </head>
 <body>
     <div class="cont-header">
@@ -469,13 +471,13 @@
                     <input name="Correo" type="text" placeholder="Dirección de correo:">
                     <input name="Tema" type="text" placeholder="Tema:">
                     <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje:"></textarea>
-                    <button type="submit">
+                    <button oneclick="handleSubmit(event)" type="submit">
                         <p>Enviar Mensaje</p>
                         <i class="fa-solid fa-paper-plane"></i>
                         <span class="overlay"></span>
                     </button>
                 </form>
-                
+
             </div>
         </div>
     </section>

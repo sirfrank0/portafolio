@@ -1,3 +1,8 @@
+src="//cdn.jsdelivr.net/npm/sweetalert2@11"
+
+
+
+
 let menuVisible = false;
 //Función que oculta o muestra el menu
 function mostrarOcultarMenu(){
@@ -28,6 +33,9 @@ async function handleSubmit(event){
 
     if (response.ok){
         this.reset()
-        alert('Gracias por contactarme')
+        Swal.fire('Gracias por contactarme','Te responderé pronto','success')
+
     }
 }
+
+
