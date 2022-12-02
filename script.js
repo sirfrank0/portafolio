@@ -1,8 +1,3 @@
-src="//cdn.jsdelivr.net/npm/sweetalert2@11"
-
-
-
-
 let menuVisible = false;
 //Función que oculta o muestra el menu
 function mostrarOcultarMenu(){
