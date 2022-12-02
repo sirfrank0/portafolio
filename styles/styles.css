@@ -533,6 +533,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
 }
 .skills .fila .col .contenedor-skills .interes{
     width: 100px;
