@@ -727,6 +727,11 @@ body{
 }
 
 
+#p-style{
+    font-family: 'Kanit', sans-serif;
+}
+
+
 ::placeholder {color: #b7afc0;}
 
 
