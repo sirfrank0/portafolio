@@ -90,7 +90,6 @@ body{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
     url(/assets/thumb-1920-1188016.jpg);
     background-size: cover ;
-    height: 100vh;
     color: var(--Grayish-pink);
     display: flex;
     align-items: center;
