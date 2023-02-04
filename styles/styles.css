@@ -108,6 +108,7 @@ body{
     display: flex;
     justify-content: center;
     max-width: 1100px;
+    padding: 50px 20px;
 }
 
 .info{
@@ -124,6 +125,7 @@ body{
     width: 50%;
     display: grid;
     justify-items: center;
+    align-items: center;
 
 }
 
@@ -975,6 +977,36 @@ footer .arriba{
         text-align: center;
         
     }
+
+    .curriculum .fila {
+        font-size: 12px;
+    }
+
+    .curriculum .fila .item h4 {
+        font-size: 14px;
+        padding-right: 8px;
+    }
+
+        .curriculum .fila .item .casa {
+            color: var(--Neon-pink);
+            font-size: 14px;
+ 
+        }
+
+        .curriculum .fila .item {
+            padding: 10px;
+        }
+
+        .photo img {
+            max-width: 90%;
+        }
+
+        .contenedor-texto h1 {
+            font-size: 44px;
+        }
+        
+        
+        
 }
 
 
@@ -1016,14 +1048,30 @@ footer .arriba{
     }
 
     .skills .fila .col h3 {
-        font-size: 24px;
-        padding-left: 20px;
-        padding-right: 20px;
+        font-size: 18px;
+        padding-left: 4px;
+        padding-right: 4px;
         
         
     }
+
+    .info-main {
+        flex-direction: column-reverse;
+        align-items: center;
+         }
+
+    .photo img {
+        max-width: 150%;
+    }
+
+    .contenedor-texto h1 {
+        font-size: 44px;
+    }
+
+    .info {
+        width: 100%;
+        max-width: 577px;
     
     }
+}
 
-
-    /* version1 */
