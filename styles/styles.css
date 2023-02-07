@@ -473,6 +473,11 @@ body{
 
 
 
+.portafolio-contenedor li a{
+    color: var(--Neon-pink);
+}
+
+
 
 
 .qr-code{
