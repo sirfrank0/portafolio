@@ -478,6 +478,18 @@ body{
 }
 
 
+.cont-tools{
+    margin-top: 8px;
+    display: flex;
+    gap: 8px;
+}
+
+.tool{
+    background-color: red;
+    border-radius: 12px;
+    padding: 4px;
+}
+
 
 
 .qr-code{
