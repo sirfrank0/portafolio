@@ -479,15 +479,38 @@ body{
 
 
 .cont-tools{
-    margin-top: 8px;
     display: flex;
     gap: 8px;
+    align-items: flex-end; 
+    height: 100%;
+    padding-bottom: 16px;
 }
 
 .tool{
-    background-color: red;
     border-radius: 12px;
     padding: 4px;
+    width: 40px;
+    font-size: 12px;
+}
+
+#figma{
+    background-color: aliceblue;
+    color: #000120;
+}
+
+#html{
+    background-color: red;
+    color: aliceblue;
+}
+
+#css{
+    background-color: blue;
+    color: aliceblue;
+}
+
+#js{
+    background-color: yellow;
+    color: #000120;
 }
 
 
@@ -503,6 +526,7 @@ body{
     filter: drop-shadow(0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.)); 
     animation: shake-3 2s infinite;
     border: 1px solid var(--Grayish-pink);
+    
 
   }
 
