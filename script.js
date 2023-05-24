@@ -1,5 +1,4 @@
 let menuVisible = false;
-//Función que oculta o muestra el menu
 function mostrarOcultarMenu(){
     if(menuVisible){
         document.getElementById("nav").classList ="";
@@ -10,28 +9,6 @@ function mostrarOcultarMenu(){
     }
 }
 
-
-const $form = document.querySelector('#form')
-
-$form.addEventListener('submit', handleSubmit)
-
-async function handleSubmit(event){
-    event.preventDefault()
-    const form = new FormData(this)
-    const response = await fetch(this.action, {
-    method: this.method,
-    body: form,
-    headers: {
-        'Accept': 'application/json'
-    }
-    })
-
-    if (response.ok){
-        this.reset()
-        Swal.fire('Gracias por contactarme','Te responderé pronto','success')
-
-    }
-}
 
 
 
