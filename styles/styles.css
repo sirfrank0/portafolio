@@ -285,7 +285,8 @@ body{
 .sobremi .contenido-seccion p{
     font: 18px;
     line-height: 22px;
-    margin-bottom: 20px;
+    max-width: 720px;
+    margin: 0 auto 1rem auto;
 }
 
 
